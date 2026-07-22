@@ -4,6 +4,13 @@ This Manim animation proves that the sum of the first $n$ consecutive odd intege
 
 ---
 
+## 🎬 Watch the Final Reel
+
+- 📲 **Instagram Reel:** [Watch on Instagram](https://www.instagram.com/p/DZ_wY7DIy1b/)
+
+---
+
+
 ## 📌 Animation Flow
 
 1. **Algebraic Induction Proof:** Demonstrating step-by-step mathematical logic for $n=1, k, k+1$.
