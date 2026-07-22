@@ -24,3 +24,11 @@ Render in 1080x1920 (Instagram Reels / YouTube Shorts format):
 
 ```bash
 manim -pql sum_of_odds.py SumOfOddNumbersReels
+```
+
+For high-quality production export (1080x1920 @ 60 FPS):
+
+
+```bash
+manim -pqh geometric_series.py GeometricSeriesReels
+```
