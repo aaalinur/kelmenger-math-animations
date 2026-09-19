@@ -1,33 +1,24 @@
-# Golden Ratio
+# Golden ratio
 
-This folder contains Manim scenes exploring the golden ratio, its geometric constructions, and its appearance in spirals and regular polygons.
+This folder contains Manim scenes exploring geometric constructions based on the golden ratio and the golden spiral.
 
-## Included files
+## Main script
 
-- `goldens.py` — main animation scene
-- `sequence.py` — sequence-based exploration
-- `hook.py` — supplementary visual element or hack for the scene
-- `twitter.py` — a social-media-ready variant or export helper
-- `last_quote.py` — final illustrative sequence or closing frame
-- `c.svg` — vector asset used by the animation
-
-## Concept
-
-The animations highlight:
-
-- the golden triangle
-- the golden pentagon
-- the golden spiral
-- numeric relationships involving \(\varphi = 1.618\dots\)
+- `golden_ratio.py` — the main scene for the golden triangle, pentagon, and spiral sequence
+- `sequence.py` — alternative sequence-based visual study
+- `hook.py` — supporting scene or helper script
+- `twitter.py` — variant for sharing or export
+- `last_quote.py` — closing or summary sequence
+- `goldens.py` — legacy file kept for compatibility
 
 ## Render
 
-Run the main scene from this directory:
+From this directory, run:
 
 ```bash
-manim goldens.py
+manim golden_ratio.py
 ```
 
 ## Notes
 
-This folder is a good example of visual storytelling with geometry and ratio-based composition in a 9:16 format.
+The older generic file name `goldens.py` was renamed to `golden_ratio.py` to reflect the project topic more clearly.

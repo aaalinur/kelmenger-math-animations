@@ -1,27 +1,22 @@
 # Brachistochrone
 
-This folder contains a Manim animation exploring the classic brachistochrone problem: among all possible paths between two points, which one minimizes travel time under gravity?
+This folder contains the brachistochrone animation, showing how a ball travels along different paths between two points and why the cycloid is the fastest under gravity.
 
-## Included files
+## Main script
 
-- `background.py` — custom space-styled background used in the scene
-- `f.py` — main brachistochrone animation
-- `ball.png` — asset used in the render
+- `brachistochrone.py` — main Manim scene entry point
+- `f.py` — legacy script kept for compatibility
+- `background.py` — space-themed background used by the animation
+- `ball.png` — image asset for the moving ball
 
 ## Render
 
 From this directory, run:
 
 ```bash
-manim f.py
-```
-
-If you want to render a specific scene class, check the class names defined in `f.py` and use:
-
-```bash
-manim f.py <SceneName>
+manim brachistochrone.py
 ```
 
 ## Notes
 
-This visual is designed for a vertical 9:16 short-form format and uses a cinematic space aesthetic to highlight the physics of the fastest path.
+The original generic filename `f.py` was renamed to `brachistochrone.py` to make the animation purpose clearer, while the old file remains as a compatibility alias.
